@@ -9,7 +9,7 @@ class Config(object):
     API_HASH = os.getenv("API_HASH", "d0852e13eee2389ff2d9183b00649547")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5745138217:AAGDpjMs_yMGLqKJhdPVt4X_23v_vJeM280")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcwbot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOGcBu6bYmjNgvA8CwAlw3rsFwazr7QkoX3229UrN1YixC2zhVdy_3UCWo722eLX2SRyAziHfn-aK419-7n6HMpK47lqyQWh-XbhiYWb9cOkkXHvPg6aPEiOLrYxQRDrAQZzy-tWJlnso2qnffUNEw3DBQjCVxo9PhFiUbsKvV-JoCj2sISnDuckWikctX9meY2Xn6ODFnm1LfxA_-N8Y27yM_YO_NwlI6O5DthUC8TRGxQKUsU1S6Zm-1p6zSwI4UieslALHGnnn6WGh8BK1bGsO_HHsuk0AOZgcbuZai4bEo0-_reORADH7fQHNOosn0sga3v6t0GJapDOZMP2onNAqAJI=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "----=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001846372477")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "@CW_winsbot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "2091430700"))
