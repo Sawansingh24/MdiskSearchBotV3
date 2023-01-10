@@ -17,7 +17,7 @@ client = TelegramClient(StringSession( Config.USER_SESSION_STRING), Config.API_I
 
 
 async def get_user_join(id):
-    if Config.FORCE_SUB == "False":
+    if Config.FORCE_SUB == "True":
         return True
 
     ok = True
@@ -47,7 +47,7 @@ async def message_handler(event):
 
 **You Have To Join Our Update Channel To Use Me ✅**
 
-**Click Below Button To Join Now.👇🏻**''', buttons=Button.url('🍿Updates Channel🍿', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
+**Click Below Button To Join Now.👇🏻**''', buttons=Button.url('🍿Updates Channel🍿', f'https://t.me/{Config.cw_wins_movie}'))
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
             return await haha.delete()
 
@@ -83,7 +83,7 @@ async def message_handler(event):
                 search.append(search_msg)
 
         username = Config.UPDATES_CHANNEL_USERNAME
-        answer = f'**Join** [@{username}](https://telegram.me/{username}) \n\n'
+        answer = f'**Join** [@{username}](https://telegram.me/{cw_wins_movie}) \n\n'
 
         c = 0
 
